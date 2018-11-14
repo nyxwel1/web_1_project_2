@@ -1,26 +1,26 @@
 
 body {
-  background-image:url(assets/textures/az_subtle.png);
+  background-image:url(assets/textures/fabric_plaid.png);
   max-width: 900px;
   background-size: cover;
   margin: 0 auto;
 }
 ul{
-  display:inline-block;
+  display: inline-block;
 }
 .nav_bar{
-  list-style-type: none;
+  list-style-type:none;
     margin:10px;
   float: right;
 }
 .banner img{
-  width:100%;
+  width:50%;
   height: 200px;
   display: block;
 }
 .banner{
   height:200px;
-  position:relative;
+  position:absolute;
 }
 .gallery{
   display: flex;
@@ -32,6 +32,7 @@ ul{
 .gallery img{
   width: 21%;
   height: 31%;
+left:1%;
 }
 main .arrows{
   position: absolute;
@@ -40,50 +41,48 @@ main .arrows{
   height: 40px;
 }
 #right_arrow{
-  right: 0;
+  right: 49%;
+}
+#left_arrow{
+left:-1%
+}
+.bio{
+  float: right;
+  width: 20%;
+  text-align: center;
+  border: solid black 1px;
+}
+.bio img{
+  height: 175px;
+}
+ul{
+  list-style-type: none;
 }
 .gallery2 img{
   width: 21%;
-}
-footer{
-  background-image: url(assets/textures/fabric_plaid.png);
+  height: 20%
 }
 .footertop{
-  position:relative;
   display: inline-block;
   width: 90%;
   text-align: center;
-  margin-top: auto;
-  padding: 2px 55px;
+  padding: 5px 55px;
   background-color: #666;
   color:white;
   vertical-align: middle;
 }
 .twitter2 {
   position: absolute;
-  top:27%;
-  left: 22%;
+  bottom:-25.5%;
+  left: 34%;
   height:1.5rem;
   width:1.5rem;
-
 }
-.vm{
-  display: block;
-  margin: 0px auto;
-  width: 150px;
-  text-align: center;
-  background-image: url(assets/textures/az_subtle.png);
-  padding: 10px 55px;
-  background-color: #666;
-  background-blend-mode: multiply;
-  color:white;
+a:link{vertical-align: middle;
   text-decoration: none;
 }
 p{
   text-align: center;
-}
-.vm:hover{
-  background-color: #ddd;
 }
 .row{
   margin-top: 10px;
@@ -100,5 +99,3 @@ p{
   float: left;
   width:33%;
 }
-a:link{vertical-align: middle;
-  text-decoration: none;}

@@ -1,0 +1,101 @@
+
+body {
+  background-image:url(assets/textures/fabric_plaid.png);
+  max-width: 900px;
+  background-size: cover;
+  margin: 0 auto;
+}
+ul{
+  display: inline-block;
+}
+.nav_bar{
+  list-style-type:none;
+    margin:10px;
+  float: right;
+}
+.banner img{
+  width:50%;
+  height: 200px;
+  display: block;
+}
+.banner{
+  height:200px;
+  position:absolute;
+}
+.gallery{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width:100%;
+}
+.gallery img{
+  width: 21%;
+  height: 31%;
+left:1%;
+}
+main .arrows{
+  position: absolute;
+  top:50%;
+  width: 40px;
+  height: 40px;
+}
+#right_arrow{
+  right: 49%;
+}
+#left_arrow{
+left:-1%
+}
+.bio{
+  float: right;
+  width: 20%;
+  text-align: center;
+  border: solid black 1px;
+}
+.bio img{
+  height: 175px;
+}
+ul{
+  list-style-type: none;
+}
+.gallery2 img{
+  width: 21%;
+  height: 20%
+}
+.footertop{
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  padding: 5px 55px;
+  background-color: #666;
+  color:white;
+  vertical-align: middle;
+}
+.twitter2 {
+  position: absolute;
+  bottom:-25.5%;
+  left: 34%;
+  height:1.5rem;
+  width:1.5rem;
+}
+a:link{vertical-align: middle;
+  text-decoration: none;
+}
+p{
+  text-align: center;
+}
+.row{
+  margin-top: 10px;
+}
+.facebook{
+  width:1.5em;
+  height: 1.5em;
+}
+.twitter{
+  width:1.5em;
+  height: 1.5em;
+}
+.column{
+  float: left;
+  width:33%;
+}
